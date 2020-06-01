@@ -4,7 +4,7 @@ summary: Just a test python snap
 description: >
   Just a test python snap
 
-confinement: classic
+confinement: strict
 base: core18
 
 parts:
