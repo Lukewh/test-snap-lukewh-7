@@ -1,5 +1,4 @@
 name: test-snap-lukewh-7
-version: 0.0.3
 summary: Just a test python snap
 description: >
   Just a test python snap
@@ -10,7 +9,7 @@ base: core22
 parts:
   test-snap-lukewh:
     plugin: python
-    python-version: python1
+    python-version: python3
     source: .
 
 apps:
