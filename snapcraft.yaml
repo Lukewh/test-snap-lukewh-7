@@ -4,7 +4,7 @@ summary: Just a test python snap
 description: >
   Just a test python snap
 
-confinement: test
+confinement: classic
 base: core22
 
 parts:
@@ -15,4 +15,6 @@ parts:
 
 apps:
   test-snap-lukewh:
+    command: python3 test_snap.py
+  test-snap-lukewh-7:
     command: python3 test_snap.py
