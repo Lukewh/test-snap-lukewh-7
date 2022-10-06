@@ -11,7 +11,7 @@ parts:
   test-snap-lukewh:
     plugin: python
     python-version: python3
-      source: .
+    source: .
 
 apps:
   test-snap-lukewh:
