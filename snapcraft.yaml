@@ -5,7 +5,7 @@ description: >
   Just a test python snap
 
 confinement: classic
-base: core18
+base: core22
 
 parts:
   test-snap-lukewh:
